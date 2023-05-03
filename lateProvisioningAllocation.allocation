@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_I-lQkJAGEe2yOZZgyxNVLg" entityName="New Allocation">
+  <targetResourceEnvironment_Allocation href="lateProvisioningResourceEnvironment.resourceenvironment#/"/>
+  <system_Allocation href="lateProvisioningAssembly.system#_4XneUJAFEe2yOZZgyxNVLg"/>
+  <allocationContexts_Allocation id="_PnxLEJAGEe2yOZZgyxNVLg" entityName="Allocation_Assembly_CloudbasedService">
+    <resourceContainer_AllocationContext href="lateProvisioningResourceEnvironment.resourceenvironment#_Fnq_IJAGEe2yOZZgyxNVLg"/>
+    <assemblyContext_AllocationContext href="lateProvisioningAssembly.system#__pV_gJAFEe2yOZZgyxNVLg"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

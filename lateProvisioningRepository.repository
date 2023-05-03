@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" id="_bPsF4JAFEe2yOZZgyxNVLg" entityName="New Repository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_qF3P8JAFEe2yOZZgyxNVLg" entityName="CloudbasedService">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_tH9vAJAFEe2yOZZgyxNVLg" entityName="CloudbasedService.ICloudbasedService.OperationProvidedRole1" providedInterface__OperationProvidedRole="_gDvqwJAFEe2yOZZgyxNVLg"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_tIO0wJAFEe2yOZZgyxNVLg" describedService__SEFF="_ggw98JAFEe2yOZZgyxNVLg">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_tIPb0JAFEe2yOZZgyxNVLg" successor_AbstractAction="_xjL9IJAFEe2yOZZgyxNVLg"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_tIPb0ZAFEe2yOZZgyxNVLg" predecessor_AbstractAction="_xjL9IJAFEe2yOZZgyxNVLg"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_xjL9IJAFEe2yOZZgyxNVLg" entityName="InternalAction1" predecessor_AbstractAction="_tIPb0JAFEe2yOZZgyxNVLg" successor_AbstractAction="_tIPb0ZAFEe2yOZZgyxNVLg">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="100"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_gDvqwJAFEe2yOZZgyxNVLg" entityName="ICloudbasedService">
+    <signatures__OperationInterface id="_ggw98JAFEe2yOZZgyxNVLg" entityName="processRequest"/>
+  </interfaces__Repository>
+</repository:Repository>
